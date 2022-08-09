@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Event Counter</a>
+          <small>Coded by Oliver Pierce</small>
+        </div>
+      </nav>
+      <div class="container">
+        <h2>Lightweight JavaScript application to count people as they enter your event.</h2>
+      </div>
+      <div class="container">
+        <h4>People entered the event:</h4>
+        <h4 id="countTotal">0</h4>
+        <button class="btn btn-primary" onclick="addPerson()">Add Person</button>
+        <button class="btn btn-danger" onclick="removePerson()">Remove Person</button>
+        <button class="btn btn-success" onclick="save()">Save</button>
+        <h4>Previous Entries:</h4>
+        <h4 id="previousEntries"></h4>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
